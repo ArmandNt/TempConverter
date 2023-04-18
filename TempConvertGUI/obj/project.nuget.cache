@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eucRJLyG75im3ogahlKhVED0zb4WdM8axSqE21Iw246ZMW8U0KFD3frE0uzxIj/UHujGfLgMzGcpOJDKn0pJ5w==",
+  "dgSpecHash": "Kqbx9s5BzAEfDhd9CX6hiI3f0JrDrcA9vZTVS1ViN+pGDO0nFeldctqiQ5fVhcuyvi/dQIA8A6BjMHAswx+Gxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rosso\\Desktop\\Projects\\TempConvertGUI\\TempConvertGUI\\TempConvertGUI.csproj",
+  "projectFilePath": "C:\\Users\\rosso\\Desktop\\Projects\\csharp\\TempConverter\\TempConvertGUI\\TempConvertGUI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

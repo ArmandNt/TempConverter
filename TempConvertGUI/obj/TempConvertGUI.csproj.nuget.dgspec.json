@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rosso\\Desktop\\Projects\\TempConvertGUI\\TempConvertGUI\\TempConvertGUI.csproj": {}
+    "C:\\Users\\rosso\\Desktop\\Projects\\csharp\\TempConverter\\TempConvertGUI\\TempConvertGUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rosso\\Desktop\\Projects\\TempConvertGUI\\TempConvertGUI\\TempConvertGUI.csproj": {
+    "C:\\Users\\rosso\\Desktop\\Projects\\csharp\\TempConverter\\TempConvertGUI\\TempConvertGUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rosso\\Desktop\\Projects\\TempConvertGUI\\TempConvertGUI\\TempConvertGUI.csproj",
+        "projectUniqueName": "C:\\Users\\rosso\\Desktop\\Projects\\csharp\\TempConverter\\TempConvertGUI\\TempConvertGUI.csproj",
         "projectName": "TempConvertGUI",
-        "projectPath": "C:\\Users\\rosso\\Desktop\\Projects\\TempConvertGUI\\TempConvertGUI\\TempConvertGUI.csproj",
+        "projectPath": "C:\\Users\\rosso\\Desktop\\Projects\\csharp\\TempConverter\\TempConvertGUI\\TempConvertGUI.csproj",
         "packagesPath": "C:\\Users\\rosso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rosso\\Desktop\\Projects\\TempConvertGUI\\TempConvertGUI\\obj\\",
+        "outputPath": "C:\\Users\\rosso\\Desktop\\Projects\\csharp\\TempConverter\\TempConvertGUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rosso\\AppData\\Roaming\\NuGet\\NuGet.Config",
