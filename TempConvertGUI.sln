@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempConvertGUI", "TempConvertGUI\TempConvertGUI.csproj", "{451A72E0-82C7-46D3-8EA4-4108AD6F8B00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{451A72E0-82C7-46D3-8EA4-4108AD6F8B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451A72E0-82C7-46D3-8EA4-4108AD6F8B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451A72E0-82C7-46D3-8EA4-4108AD6F8B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451A72E0-82C7-46D3-8EA4-4108AD6F8B00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC51D46A-4806-4BD2-B278-426937F46901}
+	EndGlobalSection
+EndGlobal
