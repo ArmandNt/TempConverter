@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\rosso\Desktop\Projects\TempConvertGUI\TempConvertGUI\obj\Debug\net6.0-windows\
-TempConvertGUI_cvzlbgq0_wpftmp
+C:\Users\rosso\Desktop\Projects\csharp\TempConverterGUI\TempConvertGUI\obj\Debug\net6.0-windows\
+TempConvertGUI
 none
 false
-TRACE;RELEASE;NET;NET6_0;NETCOREAPP
-C:\Users\rosso\Desktop\Projects\TempConvertGUI\TempConvertGUI\App.xaml
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\rosso\Desktop\Projects\csharp\TempConverterGUI\TempConvertGUI\App.xaml
 11407045341
 1-266633683
-61201284621
-388-401889352
+3-1233169557
+194-200944676
 MainWindow.xaml;
 
-True
+False
 

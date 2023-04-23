@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TempConvertGUI"
         mc:Ignorable="d"
-        Title="Temperature Converter" Height="200" Width="350">
+        Title="Temperature Converter" Height="200" Width="350" Background="#FFFF9300">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -19,33 +19,60 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        
+
         <!--Labels-->
-        <Label x:Name="lbl1" Content="Celsius" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="Bold"/>
-        <Label x:Name="lblIcon1" Content="°C" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="10,0,0,0"/>
-        <Label x:Name="lbl2" Content="Fahrenheit" Grid.Row="2" Grid.RowSpan="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="15" FontWeight="Bold" Margin="0,0,0,15"/>
-        <Label x:Name="lblIcon2" Content="°F" Grid.Row="2" Grid.RowSpan="3" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="20" FontWeight="Bold" Margin="10,0,0,15"/>
+        <Label x:Name="lbl1" Content="Celsius" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="Bold" Foreground="Black"/>
+        <Label x:Name="lblIcon1" Content="°C" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="10,0,0,0" Foreground="Black"/>
+        <Label x:Name="lbl2" Content="Fahrenheit" Grid.Row="2" Grid.RowSpan="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="15" FontWeight="Bold" Margin="0,0,0,15" Foreground="Black"/>
+        <Label x:Name="lblIcon2" Content="°F" Grid.Row="2" Grid.RowSpan="3" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="20" FontWeight="Bold" Margin="10,0,0,15" Foreground="Black"/>
 
         <!--Textbox-->
-        <TextBox x:Name="txtbox1" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" Height="35" Width="200" HorizontalAlignment="Left" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="15" PreviewTextInput="IsInputNumeric"/>
-        <TextBox x:Name="txtbox2" Grid.Column="1" Grid.Row="2" Grid.RowSpan="3" Grid.ColumnSpan="3" Height="35" Width="200" HorizontalAlignment="Left" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="15" FontWeight="Bold" IsReadOnly="True" Margin="0,20,0,0"/>
-        
+        <TextBox x:Name="txtbox1" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" Height="30" Width="200" HorizontalAlignment="Left" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="15" PreviewTextInput="IsInputNumeric" Background="#FFFF9300" BorderBrush="Black">
+            <TextBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+        <TextBox x:Name="txtbox2" Grid.Column="1" Grid.Row="2" Grid.RowSpan="3" Grid.ColumnSpan="3" Height="30" Width="200" HorizontalAlignment="Left" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="15" FontWeight="Bold" IsReadOnly="True" Margin="0,20,0,0" Background="#FFFF9300" BorderBrush="Black">
+            <TextBox.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+
         <!--Buttons-->
-        <Button x:Name="btnConvert" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="2" Height="30" Width="90" FontSize="15" HorizontalAlignment="Left" Click="btnConvert_Click" Margin="15,0,0,0">
+        <Button x:Name="btnConvert" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="2" Height="30" Width="90" FontSize="15" HorizontalAlignment="Left" Click="btnConvert_Click" Margin="15,0,0,0" BorderBrush="Black" Foreground="#FFFF9300" Background="Black">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
             <StackPanel Orientation="Horizontal">
-                <Image Source="../Resources/check.png" Width="20" Height="20"/>
+                <Image Source="../Resources/check.png" Width="20" Height="20" OpacityMask="#FFFF9300"/>
                 <TextBlock Text="Convert" VerticalAlignment="Center" FontSize="15"/>
             </StackPanel>
         </Button>
-        <Button x:Name="btnReset" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="2" Height="30" Width="90" FontSize="15" Click="btnReset_Click">
+        <Button x:Name="btnReset" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="2" Height="30" Width="90" FontSize="15" Click="btnReset_Click" BorderBrush="Black" Foreground="#FFFF9300" Background="Black" OpacityMask="#FFFF9300">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
             <StackPanel Orientation="Horizontal">
-                <Image Source="../Resources/reset.png" Width="25" Height="25" Margin="0,0,10,0"/>
+                <Image Source="../Resources/reset.png" Width="25" Height="25" Margin="0,0,10,0" OpacityMask="#FFFF9300"/>
                 <TextBlock Text="Reset" VerticalAlignment="Center" FontSize="15"/>
             </StackPanel>
         </Button>
-        <Button x:Name="btnSwap" Grid.Column="2" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="2" Width="90" Height="30" HorizontalAlignment="Right" Click="btnSwap_Click" Margin="0,0,15,0">
+        <Button x:Name="btnSwap" Grid.Column="2" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="2" Width="90" Height="30" HorizontalAlignment="Right" Click="btnSwap_Click" Margin="0,0,15,0" BorderBrush="Black" Foreground="#FFFF9300" Background="Black">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
             <StackPanel Orientation="Horizontal">
-                <Image Source="../Resources/swap.png" Width="20" Height="20"/>
+                <Image Source="../Resources/swap.png" Width="20" Height="20" OpacityMask="#FFFF9300"/>
                 <TextBlock Text="Swap" VerticalAlignment="Center" FontSize="15"/>
             </StackPanel>
         </Button>

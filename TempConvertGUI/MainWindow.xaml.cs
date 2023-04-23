@@ -58,6 +58,13 @@ namespace TempConvertGUI
                 lblIcon1.Content = "°F";
                 lbl2.Content = "Celsius";
                 lblIcon2.Content = "°C";
+
+                if (txtbox1.Text != null)
+                {
+                    string tempString = txtbox1.Text;
+                    txtbox1.Text = txtbox2.Text;
+                    txtbox2.Text = tempString;
+                }
             }
             else
             {
@@ -65,7 +72,16 @@ namespace TempConvertGUI
                 lblIcon1.Content = "°C";
                 lbl2.Content = "Fahrenheit";
                 lblIcon2.Content = "°F";
+
+                if (txtbox1.Text != null)
+                {
+                    string tempString = txtbox1.Text;
+                    txtbox1.Text = txtbox2.Text;
+                    txtbox2.Text = tempString;
+                }
             }
+
+
         }
 
         private void btnSwap_Click(object sender, RoutedEventArgs e)

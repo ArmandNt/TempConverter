@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rosso\\Desktop\\Projects\\csharp\\TempConverter\\TempConvertGUI\\TempConvertGUI.csproj",
+      "projectUniqueName": "C:\\Users\\rosso\\Desktop\\Projects\\csharp\\TempConverterGUI\\TempConvertGUI\\TempConvertGUI.csproj",
       "projectName": "TempConvertGUI",
-      "projectPath": "C:\\Users\\rosso\\Desktop\\Projects\\csharp\\TempConverter\\TempConvertGUI\\TempConvertGUI.csproj",
+      "projectPath": "C:\\Users\\rosso\\Desktop\\Projects\\csharp\\TempConverterGUI\\TempConvertGUI\\TempConvertGUI.csproj",
       "packagesPath": "C:\\Users\\rosso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rosso\\Desktop\\Projects\\csharp\\TempConverter\\TempConvertGUI\\obj\\",
+      "outputPath": "C:\\Users\\rosso\\Desktop\\Projects\\csharp\\TempConverterGUI\\TempConvertGUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rosso\\AppData\\Roaming\\NuGet\\NuGet.Config",
