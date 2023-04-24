@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TempConvertGUI"
         mc:Ignorable="d"
-        Title="Temperature Converter" Height="200" Width="350" Background="#FFFF9300">
+        Title="Temperature Converter" Height="200" Width="350" Background="#FFFF9300" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
